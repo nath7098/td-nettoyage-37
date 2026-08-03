@@ -8,6 +8,7 @@
 
     <main>
       <ServicesSection />
+      <RealisationsSection />
       <EnhancedCTA />
       <HowItWorksSection />
       <AdvantagesSection />
@@ -59,7 +60,7 @@ definePageMeta({
             image: 'https://td-nettoyage37.fr/og-image.jpg',
             '@id': 'https://td-nettoyage37.fr',
             url: 'https://td-nettoyage37.fr',
-            telephone: '+33 6 01 37 04 43',
+            telephone: '+33 7 56 80 43 64',
             email: 'tdnettoyage37@gmail.com',
             priceRange: '$$',
             address: {

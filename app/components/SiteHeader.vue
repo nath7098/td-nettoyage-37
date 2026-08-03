@@ -17,9 +17,12 @@
         </NuxtLink>
 
         <!-- Desktop Navigation -->
-        <div class="hidden md:flex items-center space-x-6">
+        <div class="hidden lg:flex items-center space-x-6">
           <NuxtLink to="/#services" class="text-white hover:text-sky-300 transition-colors">
             Services
+          </NuxtLink>
+          <NuxtLink to="/#realisations" class="text-white hover:text-sky-300 transition-colors">
+            Réalisations
           </NuxtLink>
           <NuxtLink to="/#comment-ca-marche" class="text-white hover:text-sky-300 transition-colors">
             Déroulement
@@ -43,7 +46,7 @@
           icon="i-heroicons-bars-3"
           color="primary"
           variant="ghost"
-          class="md:hidden"
+          class="lg:hidden"
           @click="isMenuOpen = !isMenuOpen"
         />
       </nav>
@@ -66,6 +69,7 @@ const isMenuOpen = ref(false)
 const navigationItems = [
   { label: 'Accueil', to: '/' },
   { label: 'Services', to: '/#services' },
+  { label: 'Réalisations', to: '/#realisations' },
   { label: 'Déroulement', to: '/#comment-ca-marche' },
   { label: 'Zone d\'intervention', to: '/#zone-couverture' },
   { label: 'FAQ', to: '/#faq' },

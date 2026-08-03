@@ -25,6 +25,7 @@
         <div>
           <h3 class="text-lg font-bold mb-4">Navigation</h3>
           <ul class="space-y-2">
+            <li><NuxtLink to="/#realisations" class="text-slate-400 hover:text-sky-400 transition-colors">Réalisations</NuxtLink></li>
             <li><NuxtLink to="/#comment-ca-marche" class="text-slate-400 hover:text-sky-400 transition-colors">Déroulement</NuxtLink></li>
             <li><NuxtLink to="/#zone-couverture" class="text-slate-400 hover:text-sky-400 transition-colors">Zone d'intervention</NuxtLink></li>
             <li><NuxtLink to="/#faq" class="text-slate-400 hover:text-sky-400 transition-colors">Questions fréquentes</NuxtLink></li>
